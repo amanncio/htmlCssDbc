@@ -5,57 +5,86 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Página Inicial</title>
+        <link rel="stylesheet" href="./styles.css">
     </head>
     
     <body>
-
-        <header>
-            <img src="../images/vemSer.png" width="100" height="150" alt="Alunos do VemSerDBC, edicão 8">
-            <small>Melhores alunos do VemSer de todos os tempos!!</small>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="sobre.html">Sobre Nós</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
+        <header class="background-header">
+            <div class="container-header">
+                <img class="logo" src="./logo.png" alt="Logo da DBC">
+                <!-- <small>Melhores alunos do VemSer de todos os tempos!!</small> -->
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a class="entrar" href="login.html">Entrar</a></li>
+                        <li><a class="cadastrar" href="cadastro.html">Cadastrar</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <main>
-            <h2>Estamos aprendendo HTML e CSS com o melhor professor de todos</h2>
-            <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
-            <small>Cogumelo 1</small>
+            <div class="container-main">
+                <h2>Estamos aprendendo HTML e CSS com o melhor professor de todos</h2>
+                <div class="images-cogumelos">
+                    <div>
+                        <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
+                        <p>João</p>
+                    </div>
+    
+                    <div>
+                        <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
+                        <p>Maria</p>
+                    </div>
+    
+                    <div>
+                        <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
+                        <p>Mario</p>
+                    </div>
 
-            <br><br>
+                    <div>
+                        <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
+                        <p>Luigi</p>
+                    </div>
+                </div>
 
-            <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
-            <small>Cogumelo 2</small>
+                <p class="texto1-home">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, neque. Quidem non quis quam consectetur fugiat aliquid error aspernatur, assumenda eum mollitia, laborum placeat delectus sequi quasi aliquam voluptatem numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nam qui vel quia, minus saepe omnis. Ad aspernatur ut ipsa nesciunt odio, corporis aut consequatur facere dicta, officia assumenda quae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus optio asperiores quos. Fugit debitis nam, harum dolor veritatis sunt esse optio deserunt velit cupiditate magnam iure? Voluptatibus fugiat rem alias?
+                </p>
 
-            <br><br>
-
-            <img src="../images/cogumelo.jpg" alt="Imagem do professor João" width="100" height="100">
-            <small>Cogumelo 3</small>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, neque. Quidem non quis quam consectetur fugiat aliquid error aspernatur, assumenda eum mollitia, laborum placeat delectus sequi quasi aliquam voluptatem numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio nam qui vel quia, minus saepe omnis. Ad aspernatur ut ipsa nesciunt odio, corporis aut consequatur facere dicta, officia assumenda quae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus optio asperiores quos. Fugit debitis nam, harum dolor veritatis sunt esse optio deserunt velit cupiditate magnam iure? Voluptatibus fugiat rem alias?
-            </p>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem vitae veritatis quaerat dolor velit voluptatibus consequuntur molestiae temporibus, quis at atque nobis nesciunt. Voluptatum facilis reiciendis illo sequi consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta velit? Facilis ipsa non, ex delectus eaque nemo quasi suscipit, voluptatibus fugiat explicabo, qui ullam repudiandae officia deserunt eos quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem vitae veritatis quaerat dolor velit voluptatibus consequuntur molestiae temporibus, quis at atque nobis nesciunt. Voluptatum facilis reiciendis illo sequi consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, soluta velit? Facilis ipsa non, ex delectus eaque nemo quasi suscipit, voluptatibus fugiat explicabo, qui ullam repudiandae officia deserunt eos quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+            
         </main>
 
+        <br><br>
+        
         <section>
-            <h3>Endereço da DBC</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1727.3574107184422!2d-51.16855857938376!3d-30.01634396732756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197777595c097f%3A0xca8f72f1b2a5fa9c!2sAv.%20Andara%C3%AD%2C%20531%20-%20Passo%20d&#39;Areia%2C%20Porto%20Alegre%20-%20RS%2C%2091350-110!5e0!3m2!1spt-BR!2sbr!4v1645529405973!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="container-section">
+                <div>
+                    <h3 class="endereco-dbc">Endereço da DBC</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1727.3574107184422!2d-51.16855857938376!3d-30.01634396732756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197777595c097f%3A0xca8f72f1b2a5fa9c!2sAv.%20Andara%C3%AD%2C%20531%20-%20Passo%20d&#39;Areia%2C%20Porto%20Alegre%20-%20RS%2C%2091350-110!5e0!3m2!1spt-BR!2sbr!4v1645529405973!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quidem, voluptatem deleniti praesentium reiciendis modi quis temporibus reprehenderit voluptatum enim labore consequatur necessitatibus atque similique expedita minus quos a non? Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit, ad, eaque nam unde minus natus cumque repellendus harum soluta ex et, nobis repudiandae? Consequuntur illo quibusdam magni perspiciatis officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi, suscipit illo ipsam expedita magni! Fugiat soluta delectus labore dolorum quia tempora, quis nesciunt id eius, voluptate modi aliquid suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius aut obcaecati, natus voluptatibus, tempora ipsam tempore a, ab quod rem provident sequi? Dicta cupiditate repellendus provident culpa voluptas ipsam!
+                    </p>
+                </div>
+                
+            </div>
         </section>
 
-        <footer>
-            <ul>
+        <footer class="">
+            <!-- <ul>
               <li><a href="#">Home</a></li>
               <li><a href="sobre.html">Sobre Nós</a></li>
               <li><a href="contato.html">Contato</a></li>
-            </ul>
+            </ul> -->
             <address>Av. Andarai 531 - Porto Alegre</address>
         </footer>
 

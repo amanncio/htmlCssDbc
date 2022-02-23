@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.background-header{
+    background-color: #07C7F2;
+}
+
+.container-header{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 10px 20px;  
+    border: 2px solid #04B2D9; 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #04B2D9;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #093640;
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+
+.container-main{
+    margin: 0 auto;
+    max-width: 1200px;
+    color: #fff;
+}
+
+.images-cogumelos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.images-cogumelos div img{
+    margin: 0 50px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+
+.texto1-home{
+    padding-bottom: 20px;
+}
+
+.container-section{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 40px;
+    background-color: lightblue;
+    padding: 30px;
+    border: 1px solid #093640;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.container-section div{
+    margin: 0 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #093640;
+    padding: 30px ;
+    color: #fff;
+}
+
+.fixar-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+body{
+    background-color: #c1c1c142;
+}
+
+.endereco-dbc{
+    margin-bottom: 10px;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.container-form{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: lightblue;
+    padding: 30px;
+    border: 1px solid #093640;
+    border-radius: 15px;
+    display: flex;
+    padding: 50px;
+    align-items:center;
+    margin-bottom: 40px;
+}
+
+.container-form div{
+    margin: 0 15px;
+}
+
+.container-form div p{
+    font-size: 25px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #093640;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:large;
+}    
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
