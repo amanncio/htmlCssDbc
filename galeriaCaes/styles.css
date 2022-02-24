@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+
+
+/* Galeria */
+
+.dog-images{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog-images > div {
+    margin: 10px;
+    flex: 1 1 300px;
+  }
+
+p{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+  
