@@ -34,6 +34,7 @@ ul li{
     margin: 0 auto;
     margin-top: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .recomendados{
